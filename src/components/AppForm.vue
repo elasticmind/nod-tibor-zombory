@@ -84,6 +84,9 @@
           </option>
         </select>
       </label>
+      <span v-if="invalidFieldNames.has(inputConfig.name)">
+        {{ inputConfig.name }} is invalid!
+      </span>
     </div>
     <button type="submit" :disabled="!!invalidFieldNames.size">Submit</button>
   </form>
