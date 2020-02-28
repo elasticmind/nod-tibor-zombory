@@ -156,8 +156,4 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-input:invalid {
-  border: 2px solid red;
-}
-</style>
+<style scoped lang="scss"></style>
